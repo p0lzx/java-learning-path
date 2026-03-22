@@ -1,0 +1,14 @@
+git add HelloWorld.java
+// OR to add everything:
+git add . // specify files to add to the github repo
+
+git commit -m "Add: Basic syntax for variables and loops" // Add comments to modifications + save changes locally
+
+git push origin main // push the files+odifications to github
+
+
+
+to import files from other collaborator:
+
+git commit fetch // to import files
+git pull // to apply importing to your machine
